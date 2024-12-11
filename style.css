@@ -1,0 +1,103 @@
+
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente de la página */
+    background: linear-gradient(135deg, #e6e6e6, #002346); /* Fondo con un degradado de color */
+    color: #000000; /* Color del texto */
+    margin: 0; /* Sin márgenes alrededor */
+    padding: 0; /* Sin relleno alrededor */
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #63737c, #001427); /* Fondo del encabezado con degradado */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil para darle profundidad */
+}
+
+header h1 {
+    font-size: 2rem; /* Tamaño de la fuente del título */
+    font-weight: bold; /* Negrita en el título */
+}
+
+header .nav-link {
+    color: #1b0066; /* Color de los enlaces de navegación */
+    font-weight: bold; /* Negrita en los enlaces */
+    transition: color 0.3s ease; /* Transición suave al pasar el cursor */
+}
+
+header .nav-link:hover {
+    color: #b5d5e7; /* Cambio de color al pasar el cursor sobre los enlaces */
+}
+
+/* Sección de productos */
+#productos h2 {
+    color: #ffffff; /* Color del título de la sección */
+    text-shadow: 2px 2px #000000; /* Sombra de texto para resaltar el título */
+    margin-bottom: 2rem; /* Espacio debajo del título */
+}
+
+.card.custom-card {
+    border: none; /* Sin borde en las tarjetas */
+    border-radius: 15px; /* Esquinas redondeadas */
+    background: #a2c2e1; /* Fondo de la tarjeta */
+    color: #fff; /* Color del texto en la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el efecto de hover */
+}
+
+.card.custom-card:hover {
+    transform: translateY(-10px); /* Efecto de desplazamiento al pasar el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más intensa al pasar el cursor */
+}
+
+.card-title {
+    color: #002941; /* Color del título de la tarjeta */
+    font-size: 1.5rem; /* Tamaño de la fuente del título */
+    font-weight: bold; /* Negrita en el título */
+}
+
+.card-text {
+    color: #000000; /* Color del texto en la tarjeta */
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #63737c, #001427); /* Fondo del botón con degradado */
+    border: none; /* Sin borde en el botón */
+    font-weight: bold; /* Negrita en el texto del botón */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #8aa7c4, #b5d5e7); /* Cambio de fondo al pasar el cursor */
+    transform: scale(1.05); /* Aumento de tamaño al pasar el cursor */
+}
+
+/* Sección de promociones */
+#promociones h2 {
+    text-shadow: 2px 2px #b5d5e7; /* Sombra de texto para resaltar el título */
+}
+
+.custom-promo {
+    border-radius: 15px; /* Esquinas redondeadas */
+    background: #a2c2e1; /* Fondo de la sección de promociones */
+    padding: 20px; /* Espaciado interno */
+    color: #000000; /* Color del texto */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transición de hover */
+}
+
+.custom-promo:hover {
+    background: #8aa7c4; /* Cambio de color de fondo al pasar el cursor */
+    transform: translateY(-10px); /* Efecto de desplazamiento al pasar el cursor */
+}
+
+/* Pie de página */
+footer {
+    background: linear-gradient(90deg, #63737c, #001427); /* Fondo del pie de página con degradado */
+    text-align: center; /* Texto centrado */
+    padding: 1rem 0; /* Espaciado interno */
+}
+
+footer p {
+    font-size: 1rem; /* Tamaño de la fuente del texto */
+    color: #fff; /* Color del texto */
+}
